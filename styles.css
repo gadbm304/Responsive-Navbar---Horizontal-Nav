@@ -1,16 +1,31 @@
 body {
     font-family: 'Archivo', sans-serif;
     font: 120%;
-    color: #4d2600;
-    background-color: #ffcc99;
+    color: #3D342D;
+    background-color: #DECFB2;
     
+}
+header, main, footer{
+    width: 40em;
+    max-width: 98%;
+    margin: 2em auto;
+    line-height: 1.5;
 }
 h1, h2, h3 {
     font-family: 'Julius Sans One', sans-serif;
     font-size: 160%;
     font-weight: 500;
-    color: #4d2600;
+    color: #3D342D;
  }
+ a:link{
+    color: #8304D7;
+}
+a:visited {
+    color: #146600;
+}
+a:hover {
+    color: #AF0442;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -18,11 +33,14 @@ nav ul {
     display: flex;
     flex-direction: row;
 }
-nav a {
+nav#menu a {
     text-decoration: none;
     display: block;
     padding: 0.5em 1em;
-    color: #3399ff;
-    background-color: #ffe6cc;
-    border: 1px solid black;
+    color: #E1C098;
+    background-color: #3D342D;
+    border: 1PX solid black;
+}
+nav#menu a:hover {
+    color:#FF8712 ;
 }
